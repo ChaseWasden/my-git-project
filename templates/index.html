@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chase Wasden - Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 40px auto;
+            padding: 20px;
+            max-width: 800px;
+            background-color: #f4ede1;
+            color: #333;
+            font-size: 18px;
+        }
+        .container {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #5a4635;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #e0c9a6;
+            border-radius: 5px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        a {
+            color: #8b5e3c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="section">
+            <h1>Chase Wasden</h1>
+            <p>Email: <a href="mailto:chasewasden2@gmail.com">chasewasden2@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/chasewasden">linkedin.com/in/chasewasden</a></p>
+        </header>
+        
+        <section class="section">
+            <h2>Education</h2>
+            <p><strong>Utah State University, Jon M. Huntsman School of Business</strong> - Logan, UT</p>
+            <p>Bachelor of Science, Information Systems; Minor: Data Analytics</p>
+            <p>Graduation: May 2026 | GPA: 3.34 (While working 30 hours a week)</p>
+        </section>
+        
+        <section class="section">
+            <h2>Tools / Skills</h2>
+            <ul>
+                <li>SQL</li>
+                <li>Tableau</li>
+                <li>Python</li>
+                <li>Podium</li>
+                <li>Amazon Web Services</li>
+                <li>Salesforce</li>
+                <li>Data Management</li>
+                <li>Databases</li>
+                <li>MS Suite</li>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <h2>Education Projects</h2>
+            <h3>SQL (Utah State Class Project) - Fall 2024</h3>
+            <ul>
+                <li>Utilized tables from the database to perform various tasks regarding customers of a company.</li>
+                <li>Performed tasks using inner, outer, and full joins.</li>
+                <li>Used aggregates and multi-table queries to analyze customer trends and behaviors.</li>
+            </ul>
+            
+            <h3>Tableau (Utah State Class Project) - Spring 2024</h3>
+            <ul>
+                <li>Extrapolated data on possible NFL expansions to new countries.</li>
+                <li>Placed data into multiple interactive maps, bar graphs, and scatterplots.</li>
+                <li>Utilized dashboard to make data easily understandable and share findings.</li>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <h2>Work Experience</h2>
+            
+            <h3>Vivint Smart Home - Logan, UT</h3>
+            <p><strong>Billing Professional</strong> (2023 – Present)</p>
+            <ul>
+                <li>Reach out and process payments ranging from $20-$1,000 for around 50 customers a month.</li>
+                <li>Responsible for collecting over $5,000 a month in payments.</li>
+                <li>Utilize programs such as Salesforce and Podium to engage with customers, manage information, and process payments.</li>
+            </ul>
+            
+            <p><strong>Team Lead</strong> (2022 – 2023)</p>
+            <ul>
+                <li>Ensured team of about 20 members met important KPIs like revenue, customer engagement time, and referrals.</li>
+                <li>Coached team members who lacked performance and set up performance improvement plans for 5-10 team members a month.</li>
+                <li>Managed day-to-day activities for a team of 20 members which included attendance, efficiencies, and goals.</li>
+            </ul>
+            
+            <h3>Speedy Quick Network - Meridian, ID</h3>
+            <p><strong>Internet Technician</strong> (August 2019 – July 2021)</p>
+            <ul>
+                <li>Serviced internet both online and in 15-20 customers’ homes daily.</li>
+                <li>Performed evaluations on how to improve overall customer experience.</li>
+                <li>Researched and planned for future locations of where to expand service.</li>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <a href="{{ url_for('about') }}">About Me</a>
+        </section>
+    </div>
+</body>
+</html>
